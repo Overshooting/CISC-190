@@ -1,0 +1,15 @@
+Enter a date in the form of mm/dd/yyyy: 2/29/2000 is a valid date.
+
+Enter a date in the form of mm/dd/yyyy: 2/29/1900 is invalid because it has too many days for its month
+
+Enter a date in the form of mm/dd/yyyy: 2/29/2020 is a valid date.
+
+Enter a date in the form of mm/dd/yyyy: 4/31/2021 is invalid because it has too many days for its month
+
+Enter a date in the form of mm/dd/yyyy: 4/15/2021 is a valid date.
+
+Enter a date in the form of mm/dd/yyyy: 7/25/2021 is a valid date.
+
+Enter a date in the form of mm/dd/yyyy: 5/32/2013 is invalid because it has too many or too little days
+
+Enter a date in the form of mm/dd/yyyy: 13/13/2013 is invalid because it has too many or too little months

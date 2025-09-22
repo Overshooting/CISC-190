@@ -1,0 +1,8 @@
+Enter your first grade: 90 Enter your second grade: 95 Enter your third grade: 86 With an average score of 90.3
+Your grade is: A
+
+Enter your first grade: 89 Enter your second grade: 70 Enter your third grade: 80 With an average score of 79.7
+Your grade is: C
+
+Enter your first grade: 76 Enter your second grade: 50 Enter your third grade: 52 With an average score of 59.3
+Your grade is: F

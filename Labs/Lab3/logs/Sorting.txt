@@ -1,0 +1,5 @@
+Enter a number: 1 Enter a number: 2 Enter a number: 3 1 2 3
+
+Enter a number: 2 Enter a number: 3 Enter a number: 1 1 2 3
+
+Enter a number: 1 Enter a number: 3 Enter a number: 2 1 2 3
