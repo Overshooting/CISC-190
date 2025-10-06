@@ -1,0 +1,30 @@
+Set 1 of grades calculated
+Number of A's 4
+Number of B's 2
+Number of C's 1
+Number of D's 3
+Number of F's 4
+The high score was: 99
+The low score was: 0
+The avg score was: 71.28571428571429
+
+Set 2 of grades calculated
+Number of A's 3
+Number of B's 4
+Number of C's 2
+Number of D's 0
+Number of F's 5
+The high score was: 97
+The low score was: 0
+The avg score was: 69.57142857142857
+
+Set 3 of grades calculated
+Number of A's 2
+Number of B's 2
+Number of C's 2
+Number of D's 4
+Number of F's 4
+The high score was: 97
+The low score was: 0
+The avg score was: 68.85714285714286
+
