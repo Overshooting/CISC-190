@@ -1,0 +1,10 @@
+Set 1 of grades calculated
+Number of A's 4
+Number of B's 4
+Number of C's 4
+Number of D's 4
+Number of F's 2
+The high score was: 100
+The low score was: 0
+The avg score was: 76.11111111111111
+

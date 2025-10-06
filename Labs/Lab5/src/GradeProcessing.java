@@ -91,6 +91,7 @@ public class GradeProcessing {
         int highest, lowest, count, total, aCount, bCount, cCount, dCount, fCount;
         int numSets = 0;
         double average;
+        boolean firstWasEnd = false;
 
         inFile = new File(inPath);
         outFileCheck = new File(outPath);
@@ -107,6 +108,10 @@ public class GradeProcessing {
 
         while (fileReader.hasNextLine()) {
             int temp = fileReader.nextInt();
+            firstWasEnd = false;
+            if (temp == -1) {
+                firstWasEnd = true;
+            }
             highest = 0;
             lowest = 0;
             count = 0;
@@ -161,16 +166,20 @@ public class GradeProcessing {
 
             }
 
-            accumulator += "" +
-                    "Set " + numSets + " of grades calculated" +
-                    "\nNumber of A's " + aCount +
-                    "\nNumber of B's " + bCount +
-                    "\nNumber of C's " + cCount +
-                    "\nNumber of D's " + dCount +
-                    "\nNumber of F's " + fCount +
-                    "\nThe high score was: " + highest +
-                    "\nThe low score was: " + lowest +
-                    "\nThe avg score was: " + average + "\n\n";
+            if (!firstWasEnd) {
+                accumulator += "" +
+                        "Set " + numSets + " of grades calculated" +
+                        "\nNumber of A's " + aCount +
+                        "\nNumber of B's " + bCount +
+                        "\nNumber of C's " + cCount +
+                        "\nNumber of D's " + dCount +
+                        "\nNumber of F's " + fCount +
+                        "\nThe high score was: " + highest +
+                        "\nThe low score was: " + lowest +
+                        "\nThe avg score was: " + average + "\n\n";
+            } else {
+                accumulator += "No grades to compute for set " + numSets + "\n\n";
+            }
 
             printer.write(accumulator);
         }
@@ -198,5 +207,7 @@ public class GradeProcessing {
             return "F";
         }
     }
+
+    //Labs/Lab5/src/actualinput.txt
 
 }
