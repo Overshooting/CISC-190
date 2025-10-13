@@ -94,7 +94,7 @@ public class Triangle {
      * Prints the Triangles instance fields and area to console
      */
     public void writeOutput() {
-        System.out.printf("The triangle's name is: %s " +
+        System.out.printf("\nThe triangle's name is: %s " +
                 "\nThe triangle's base length is: %.1f " +
                 "\nThe triangle's height is: %.1f " +
                 "\nThe triangle's area is %.1f", name, base, height, getArea());
