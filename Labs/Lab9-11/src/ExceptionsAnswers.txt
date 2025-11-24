@@ -1,0 +1,3 @@
+1) parseDouble() throws an unchecked exception because the compiler does not force you to handle its exception, allowing for bad input to crash the program at runtime
+
+2) Scanner(new File) throws a checked exception because the compiler forces you to flag or handle bad input before runtime
