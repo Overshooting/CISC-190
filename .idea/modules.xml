@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CISC-190.iml" filepath="$PROJECT_DIR$/.idea/CISC-190.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Lab1/Lab1.iml" filepath="$PROJECT_DIR$/Labs/Lab1/Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab10/Lab10.iml" filepath="$PROJECT_DIR$/Labs/Lab10/Lab10.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Lab2p1/Lab2p1.iml" filepath="$PROJECT_DIR$/Labs/Lab2p1/Lab2p1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Lab2p2/Lab2p2.iml" filepath="$PROJECT_DIR$/Labs/Lab2p2/Lab2p2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labs/Lab3/Lab3.iml" filepath="$PROJECT_DIR$/Labs/Lab3/Lab3.iml" />
