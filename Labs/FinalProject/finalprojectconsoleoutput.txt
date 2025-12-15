@@ -1,0 +1,4 @@
+Enter the name of the input file: input: Labs/FinalProject/registration.csv
+File not found, please enter another file path: Labs/FinalProject/registration.csv
+Enter the name of the file to output to: Labs/FinalProject/finalprojectoutput.txt
+File processing complete, output can be found at Labs/FinalProject/finalprojectoutput.txt
